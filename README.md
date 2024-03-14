@@ -23,12 +23,12 @@ Visual Studio 2019
 ```
 #include <Windows.h>
 #include <stdio.h>
-#include "../RebirthGuard/RebirthGuardSDK.h"
-#pragma comment (lib, "RebirthGuard.lib")
+#include "../0xGuard/0xGuardSDK.h"
+#pragma comment (lib, "0xGuard.lib")
 
 int main(void)
 {
-	printf(RGS("Hello RebirthGuard SampleEXE!\n"));
+	printf(RGS("Welcome to 0xGuard's sample Executable File.\n"));
 
 	LoadLibraryA(RGS("SampleDLL.dll"));
 
